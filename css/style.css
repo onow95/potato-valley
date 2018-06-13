@@ -1,12 +1,14 @@
 /* Global Setting */
 * {
   box-sizing: border-box;
+  font-family: 'Arvo', serif;
 }
 body {
  margin: 0; 
 }
 a {
   text-decoration: none;
+  text-color: black;
 }
 ul {
   list-style: none;
@@ -19,6 +21,9 @@ ul {
   font-style: italic;
 }
 /* Header */
+h1 {
+  font-size: 2.4em;
+}
 button.collapsible {
   border-radius: 100%;
   position: fixed;
@@ -64,14 +69,25 @@ section {
   text-align: center;
   padding: 20px;
 }
+h2 {
+  color: #c30;
+}
 /* About Us */
+.container-about {
+  color: white;
+  margin-top: -5px;
+  background-color: #222;
+}
 .hr1 {
   width: 30px;
-  border: solid 3px black;
+  border: solid 3px #c30;
 }
 /* Menu */
-#menu {
-  background-color: #eee;
+.container-menu {
+  color: #222;
+}
+#menu h3 {
+  color: black;
 }
 .hr2 {
   width: 30px;
@@ -93,5 +109,5 @@ section {
 }
 .hr3 {
   margin: 8px 15px;
-  border: 1px dashed;
+  border: 0.5px dashed;
 }
