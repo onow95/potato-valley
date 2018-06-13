@@ -62,6 +62,7 @@ button.collapsible {
 /* Main Content */
 section {
   text-align: center;
+  padding: 20px;
 }
 /* About Us */
 .hr1 {
@@ -75,4 +76,22 @@ section {
 .hr2 {
   width: 30px;
   border: solid 3px red;
+}
+.menuitem {
+  position: relative;
+  text-align: left;
+}
+.menuitem span {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+.menuitem h4, .menuitem p {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 50px;
+}
+.hr3 {
+  margin: 8px 15px;
+  border: 1px dashed;
 }
