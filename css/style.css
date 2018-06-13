@@ -15,6 +15,9 @@ ul {
   position: relative;
   width: 100%;
 }
+.italic {
+  font-style: italic;
+}
 /* Header */
 button.collapsible {
   border-radius: 100%;
@@ -55,4 +58,21 @@ button.collapsible {
   text-align: center;
   color: white;
   text-shadow: 3px 3px 4px #000;
+}
+/* Main Content */
+section {
+  text-align: center;
+}
+/* About Us */
+.hr1 {
+  width: 30px;
+  border: solid 3px black;
+}
+/* Menu */
+#menu {
+  background-color: #eee;
+}
+.hr2 {
+  width: 30px;
+  border: solid 3px red;
 }
