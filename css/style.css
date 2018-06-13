@@ -67,9 +67,10 @@ button.collapsible {
 /* Main Content */
 section {
   text-align: center;
-  padding: 20px;
+  padding: 40px 40px 80px;
 }
 h2 {
+  margin: 40px 20px;
   color: #c30;
 }
 /* About Us */
@@ -85,8 +86,10 @@ h2 {
 /* Menu */
 .container-menu {
   color: #222;
+  background-color: #f4f4f4;
 }
 #menu h3 {
+  margin: 40px 20px 30px;
   color: black;
 }
 .hr2 {
@@ -99,15 +102,13 @@ h2 {
 }
 .menuitem span {
   position: absolute;
-  right: 20px;
+  right: 0px;
   bottom: 0;
+  color: #c30;
 }
 .menuitem h4, .menuitem p {
-  margin-left: 20px;
-  margin-right: 20px;
   padding-right: 50px;
 }
 .hr3 {
-  margin: 8px 15px;
   border: 0.5px dashed;
 }
